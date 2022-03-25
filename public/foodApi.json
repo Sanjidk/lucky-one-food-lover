@@ -3,72 +3,72 @@
     "id": 1,
     "foodName": "Burger",
     "price": 100,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-cheese-burger_18841205.htm?query=food&collectionId=2663530&&position=0&from_view=collections"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-cheese-burger_23-2149108546.jpg?w=740&t=st=1648236281~exp=1648236881~hmac=2fdec22336f29b620c6e5c75c909bf460e1ea9c2950adc688bf38fcee2b205e1"
   },
   {
     "id": 2,
     "foodName": "Pizza",
     "price": 200,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-pizza_18841223.htm"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-pizza_23-2149108554.jpg?w=740&t=st=1648236247~exp=1648236847~hmac=77bed2304f376372fa1d8185b0cb5fd40cc7862cca5ca01b598f5aaff24543d9"
   },
   {
     "id": 3,
     "foodName": "Nodules",
     "price": 300,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-pasta_18841219.htm"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-pasta_23-2149108551.jpg?w=740&t=st=1648236219~exp=1648236819~hmac=8c7f6df9c4fe7b126c7d9f60d3fb7add39934cd95127457089e0499a9add68bf"
   },
   {
     "id": 4,
     "foodName": "Donuts",
     "price": 400,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-donut_18841216.htm?query=food&collectionId=2663530&&position=1&from_view=collections"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-donut_23-2149108542.jpg?w=740&t=st=1648236186~exp=1648236786~hmac=c4ba7373790c191a642166e1090ecaa50e0bf373027b986d3b0aadf127927794"
   },
   {
     "id": 5,
     "foodName": "Hot Dog",
     "price": 500,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-hot-dog_18841211.htm?query=food&collectionId=2663530&&position=5&from_view=collections"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-hot-dog_23-2149108547.jpg?w=740&t=st=1648236139~exp=1648236739~hmac=6360f4b73ef239e5be06ea7b18f3cd52c7caa0b750d0abad863eef2ae100f69a"
   },
   {
     "id": 6,
     "foodName": "Chiken Fry",
     "price": 600,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-roasted-chicken_18841204.htm?query=food&collectionId=2663530&&position=8&from_view=collections"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-roasted-chicken_23-2149108536.jpg?w=740&t=st=1648236099~exp=1648236699~hmac=784787747ed102842b55e9824913a08351d0b5d0d185b74ba6b744e9a8168f8d"
   },
   {
     "id": 7,
     "foodName": "Egg Omelet",
     "price": 150,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-fried-egg_18841207.htm?query=food&collectionId=2663530&&position=10&from_view=collections"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-fried-egg_23-2149108543.jpg?w=740&t=st=1648236065~exp=1648236665~hmac=b0deda9c1de3886d5c92640b109c889284a63fa52f808b003aa4511716a49a7a"
   },
   {
     "id": 8,
     "foodName": "Cheese",
     "price": 250,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-cheese_18841200.htm"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-cheese_23-2149108535.jpg?w=740&t=st=1648236023~exp=1648236623~hmac=bc1c8f61fe94f4ffcdeef8283ce0e73061d174a01882d2aec9eb3cb65a93fa30"
   },
   {
     "id": 9,
     "foodName": "Drinko",
     "price": 350,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-beverage_18841208.htm"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-beverage_23-2149108540.jpg?w=740&t=st=1648235985~exp=1648236585~hmac=24f0e6790434bef9f333335119781560977dcc42f84089e69ee8657fc5c63e8e"
   },
   {
     "id": 10,
     "foodName": "Fried Chiken Pis",
     "price": 450,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-roasted-chicken-leg_18841203.htm"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-roasted-chicken-leg_23-2149108537.jpg?w=740&t=st=1648235908~exp=1648236508~hmac=dded1802b33f136e327260441e917021d230bf1f89f531a88b6662ddaa2621f2"
   },
   {
     "id": 11,
     "foodName": "Vegetable Roll",
     "price": 550,
-    "image": "https://www.freepik.com/free-psd/3d-rendering-delicious-shawarma_18841206.htm?query=food"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-shawarma_23-2149108549.jpg?w=740&t=st=1648235661~exp=1648236261~hmac=9372286905c19d430063d42e1fc552b1e99d836e77a35a72b6a6c660b339d477"
   },
   {
     "id": 12,
     "foodName": "Ice Cream",
     "price": 650,
-    "image": "https://www.freepik.com/premium-psd/3d-rendering-delicious-ice-cream_18841221.htm"
+    "image": "https://img.freepik.com/free-psd/3d-rendering-delicious-ice-cream_23-2149108548.jpg?w=740"
   }
 ]
