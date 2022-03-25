@@ -14,15 +14,18 @@ const Foods = () => {
   },[])
 
   return (
-   <div>
-      <h1>Food Catagories: {foods.length} items</h1>
-     <div>
+   <div className='food-container'>
+      <p className='catagories'>Food Catagories: {foods.length} items</p>
+     <div className='foods-cart'>
        <div className='food-item'>
         {
         foods.map(food => <Food
         food={food}
         ></Food>  )
               }
+       </div>
+        <div>
+          
        </div>
      </div>
    </div>
