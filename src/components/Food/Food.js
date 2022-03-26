@@ -7,7 +7,7 @@ const Food = ({food, handleFood}) => {
   const {foodName, price, image} = food;
   return (
     <div>
-      <div className="row g-4">
+      <div className="row g-3 ">
         <div className="col">
           <div className="card mx-auto border-0 shadow-lg food-img">
             <img src={image} className="card-img-top" alt="..."></img>

@@ -16,4 +16,8 @@
   flex-direction: column;
 }
 
+.all-btn button:hover{
+  background-color: aqua;
+  color: #000;
+}
 

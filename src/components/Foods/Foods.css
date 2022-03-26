@@ -9,13 +9,12 @@
 
 .foods-cart{
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 1fr 4fr;
   gap: 20px;
 }
 
 .catagories{
   text-align: center;
-  width: 80%;
   font-size: 30px;
   font-weight: 800;
 }
@@ -36,13 +35,22 @@
   .food-item{
     display: grid;
     grid-template-columns: 1fr;
+    margin-right: 30px;
   }
 
   .catagories{
     text-align: center;
     font-size: 20px;
     font-weight: 800;
-    margin-left: 25px;
+  }
+  .foods-cart{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cart-div{
+    margin-right: 15px;
   }
 
   

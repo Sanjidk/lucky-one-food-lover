@@ -28,3 +28,8 @@ border-radius: 20px;
 .cart-btn p{
   margin-bottom: 0%;
 }
+
+.cart-btn:hover{
+  background-color: rgb(0, 255, 251);
+  color: black;
+}

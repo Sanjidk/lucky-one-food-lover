@@ -33,8 +33,16 @@ setCart(cartArray);
 
   return (
    <div>
-      <p className='catagories'>Food Catagories: {foods.length} items</p>
+      <p className='catagories'>Food Categories: {foods.length} items</p>
      <div className='foods-cart'>
+     <div className='shadow-lg p-3 ms-3 cart-div'>
+          <FoodCart
+          cart={cart}
+        removeFood = {removeFood}
+        randomSelect = {randomSelect}
+          
+          ></FoodCart>
+       </div>
        <div className='food-item'>
         {
         foods.map(food => <Food
@@ -44,14 +52,7 @@ setCart(cartArray);
         ></Food>  )
               }
        </div>
-        <div className='shadow-lg p-3 me-3 cart-div'>
-          <FoodCart
-          cart={cart}
-        removeFood = {removeFood}
-        randomSelect = {randomSelect}
-          
-          ></FoodCart>
-       </div>
+        
      </div>
    </div>
   );
