@@ -2,23 +2,23 @@ import './FoodCart.css';
 
 import React from 'react';
 
-const FoodCart = ({cart}) => {
-
+const FoodCart = (props) => {
+  const {cart,removeFood, randomSelect } = props;
 
   return (
     <div>
-      <h1>Food List</h1>
+      <h1>Selected List</h1>
       {
         cart.map(food => 
           <li>{food.foodName}</li>
           
           )
       }
-<div className='all-btn'>
-  
-      <button> Select Randomly</button>
-      <button>Remove All</button>
-</div>
+        <div className='all-btn'>
+              <button onClick={ ()=> randomSelect(cart)}> Select 1 Item Randomly</button>
+              <button onClick={removeFood}>Remove All</button>
+        </div>
+      
 
       
     </div>

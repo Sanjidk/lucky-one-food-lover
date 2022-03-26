@@ -12,19 +12,27 @@ const Foods = () => {
     fetch('foodApi.json')
     .then(res=> res.json())
     .then(data=>setFoods(data))
-
   },[])
 
+  const randomSelect = (cart) =>{
+const item = cart[Math.floor(Math.random() * cart.length)];
+const cartArray = [];
+cartArray.push(...cartArray, item)
+setCart(cartArray);
+  }
+
+  const removeFood = () => {
+    setCart([]);
+  }
 
   const handleFood = (food) => {
     const newCart = [...cart, food]
     setCart(newCart);
-
   }
   
 
   return (
-   <div className='food-container'>
+   <div>
       <p className='catagories'>Food Catagories: {foods.length} items</p>
      <div className='foods-cart'>
        <div className='food-item'>
@@ -32,14 +40,15 @@ const Foods = () => {
         foods.map(food => <Food
         key = {food.id}
         food={food}
-        handleFood={handleFood}
+        handleFood= {handleFood}
         ></Food>  )
               }
        </div>
-        <div>
+        <div className='shadow-lg p-3'>
           <FoodCart
-          
           cart={cart}
+        removeFood = {removeFood}
+        randomSelect = {randomSelect}
           
           ></FoodCart>
        </div>
