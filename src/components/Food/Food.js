@@ -1,8 +1,8 @@
 import './Food.css';
 import React from 'react';
 
-const Food = (props) => {
-  const {foodName, price, image} = props.food;
+const Food = ({food, handleFood}) => {
+  const {foodName, price, image} = food;
   return (
     <div>
       <div className="row g-4">
@@ -12,7 +12,7 @@ const Food = (props) => {
             <div className="card-body food-title-price">
               <h4 className="card-title">{foodName}</h4>
               <p className="card-text"> Price: {price} BDT </p>
-              <button className='cart-btn'> Add To Cart</button>
+              <button onClick={ ()=> handleFood(food)}className='cart-btn'> Add To Cart</button>
             </div>
           </div>
         </div>
