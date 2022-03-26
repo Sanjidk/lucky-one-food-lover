@@ -20,6 +20,13 @@
   font-weight: 800;
 }
 
+.cart-div{
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
 
 @media only screen and (max-width: 600px) {
   body {

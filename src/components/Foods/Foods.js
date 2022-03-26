@@ -44,7 +44,7 @@ setCart(cartArray);
         ></Food>  )
               }
        </div>
-        <div className='shadow-lg p-3'>
+        <div className='shadow-lg p-3 me-3 cart-div'>
           <FoodCart
           cart={cart}
         removeFood = {removeFood}

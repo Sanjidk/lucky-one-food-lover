@@ -12,11 +12,19 @@ border-radius: 20px;
 }
 
 .cart-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: rgb(255, 255, 255);
   font-size: 15px;
   font-weight: 700;
   background-color: rgb(21, 87, 255);
-  border: 0px;
+  border: none;
   padding: 9px;
-  border-radius: 10px;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.cart-btn p{
+  margin-bottom: 0%;
 }
