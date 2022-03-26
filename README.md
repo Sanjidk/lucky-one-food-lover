@@ -1,6 +1,6 @@
 # Lucky One Sanjidk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Lucky One Sanjidk](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
